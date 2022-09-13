@@ -61,6 +61,8 @@ Payment::Payment()
 	numWorkingDay = 0;//количество рабочих дней в месяце
 	withholding = 0;
 	exper = 0;
+	allsum = 0;
+	wages = 0;
 }
 Payment::Payment(char* n, char* s, char* p, int sal, int year, double all, int numWed, int numWing)
 {
@@ -77,6 +79,8 @@ Payment::Payment(char* n, char* s, char* p, int sal, int year, double all, int n
 	numWorkingDay = numWing;
 	withholding = 0;
 	exper = 0;
+	allsum = 0;
+	wages = 0;
 }
 Payment::Payment(const Payment& person) 
 {
